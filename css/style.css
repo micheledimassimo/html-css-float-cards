@@ -7,8 +7,7 @@
 
 .container {
     max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
+      
 }
 
 
@@ -17,10 +16,56 @@ header > h1 {
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 2.5em;
+    text-align: center;
 }
 
 header > p {
     padding-left: 15%;
     padding-right: 15%;
     font-size: 1.3em;
+    text-align: center;
 }
+
+img {
+    height: 100px;
+}
+
+
+.float-left {
+    float: left;
+    margin-right: 15px;
+    
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+} 
+
+.card {
+    height: 100px;
+    width: 350px;
+    background-color: #0F0E17;
+    color: white;
+}
+
+#name-card {
+    font-weight: bold;
+
+}
+
+#mail-card {
+    color: #63B3C0;
+  
+}
+ 
+
+.card > p {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
