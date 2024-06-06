@@ -10,6 +10,9 @@
       
 }
 
+main {
+    width: 80%;
+}
 
 header > h1 {
     color: #E53170;
@@ -52,11 +55,13 @@ img {
 
 #name-card {
     font-weight: bold;
+    font-size: 1.3em;
 
 }
 
 #mail-card {
     color: #63B3C0;
+    font-size: 1.1em;
   
 }
  
