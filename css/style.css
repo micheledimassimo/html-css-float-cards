@@ -6,13 +6,10 @@
 }
 
 .container {
-    max-width: 100%;
-      
+    max-width: 1300px;
+    margin: auto;  
 }
 
-main {
-    width: 80%;
-}
 
 header > h1 {
     color: #E53170;
@@ -23,34 +20,32 @@ header > h1 {
 }
 
 header > p {
-    padding-left: 15%;
-    padding-right: 15%;
     font-size: 1.3em;
     text-align: center;
 }
 
 img {
-    height: 100px;
+    height: 100%;
+    margin-right: 10px;
 }
 
 
 .float-left {
     float: left;
-    margin-right: 15px;
-    
 }
 
 .clearfix::after {
     content: "";
     clear: both;
-    display: block;
+    display: table;
 } 
 
 .card {
-    height: 100px;
-    width: 350px;
+    height: 120px;
+    width: calc(100% / 3 - 30px);
     background-color: #0F0E17;
     color: white;
+    margin-right: 15px;
 }
 
 #name-card {
@@ -62,6 +57,7 @@ img {
 #mail-card {
     color: #63B3C0;
     font-size: 1.1em;
+    text-decoration: none;
   
 }
  
@@ -72,5 +68,7 @@ img {
     margin-bottom: 15px;
 }
 
-
+.row {
+    margin-top: 30px;
+}
 
