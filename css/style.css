@@ -1,21 +1,22 @@
+/*Reset*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Fredoka", sans-serif;
 }
-
+/*Container*/
 .container {
     max-width: 1300px;
     margin: auto;  
 }
 
-
+/*Header*/
 header > h1 {
     color: #E53170;
     margin-top: 40px;
     margin-bottom: 40px;
-    font-size: 2.5em;
+    font-size: 2.7em;
     text-align: center;
 }
 
@@ -25,12 +26,7 @@ header > p {
     margin-bottom: 40px;
 }
 
-img {
-    height: 100%;
-    margin-right: 10px;
-}
-
-
+/*float*/
 .float-left {
     float: left;
 }
@@ -41,6 +37,15 @@ img {
     display: table;
 } 
 
+.row {
+    margin-top: 30px;
+}
+
+/*id cards*/
+img {
+    height: 100%;
+    margin-right: 10px;
+}
 .card {
     height: 120px;
     width: calc(100% / 3 - 30px);
@@ -53,24 +58,18 @@ img {
 #name-card {
     font-weight: bold;
     font-size: 1.3em;
-
+    text-transform: uppercase;
 }
 
 #mail-card {
     color: #63B3C0;
     font-size: 1.1em;
-    text-decoration: none;
-  
+    text-decoration: none; 
 }
  
-
 .card > p {
     display: block;
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-.row {
-    margin-top: 30px;
 }
 
