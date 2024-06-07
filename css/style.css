@@ -53,6 +53,8 @@ img {
     color: white;
     margin-right: 25px;
     margin-top: 15px;
+    box-shadow: 3px 7px gray;
+    border-radius: 6px;
 }
 
 #name-card {
